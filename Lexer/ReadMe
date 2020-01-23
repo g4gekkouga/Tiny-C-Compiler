@@ -1,0 +1,13 @@
+/* 
+Name : Pericherla Amshumaan Varma
+Roll No : 17CS30025
+Assignment No : 3
+File : ReadMe file
+*/
+
+make -> tocreate the requires executable files
+make clean -> remove the generated files with make
+make test -> run the executable file with the test code as input
+
+token.txt:
+The token stream generated is displayed on terminal and also a token.txt file is created with the generated token stream.
