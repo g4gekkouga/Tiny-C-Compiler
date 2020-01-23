@@ -1,0 +1,181 @@
+Testing
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	0
+  1. :t001	=	0
+  2. :t002	=	0
+  3. :t003	=	1
+  4. :i		=	t003
+  5. :t004	=	t003
+  6. :t005	=	10
+  7. :if  i <=t005	goto 13
+  8. :goto 20
+  9. :goto 20
+ 10. :t006	=	i
+ 11. :i	=	i + 1
+ 12. :goto 6
+ 13. :t007	=	1
+ 14. :t008	=	j + t007
+ 15. :j		=	t008
+ 16. :t009	=	t008
+ 17. :param	j
+ 18. :t010	=	call printInt, 1
+ 19. :goto 10
+ 20. :t011	=	0
+ 21. :if  j !=t011	goto 24
+ 22. :goto 31
+ 23. :goto 31
+ 24. :t012	=	1
+ 25. :t013	=	j - t012
+ 26. :j		=	t013
+ 27. :t014	=	t013
+ 28. :param	j
+ 29. :t015	=	call printInt, 1
+ 30. :goto 20
+ 31. :t016	=	10
+ 32. :i		=	t016
+ 33. :t017	=	t016
+ 34. :t018	=	i
+ 35. :i	=	i - 1
+ 36. :t019	=	1
+ 37. :if  i >t019	goto 34
+ 38. :goto 40
+ 39. :goto 40
+ 40. :t020	=	0
+ 41. :return	t020
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+i	int	0		4	36	null
+j	int	0		4	20	null
+t000	int	0		4	24	null
+k	int	0		4	28	null
+t001	int	0		4	32	null
+t002	int	0		4	40	null
+t003	int	1		4	44	null
+t004	int	null		4	48	null
+t005	int	10		4	52	null
+t006	int	null		4	56	null
+t007	int	1		4	60	null
+t008	int	null		4	64	null
+t009	int	null		4	68	null
+t010	int	null		4	72	null
+t011	int	0		4	76	null
+t012	int	1		4	80	null
+t013	int	null		4	84	null
+t014	int	null		4	88	null
+t015	int	null		4	92	null
+t016	int	10		4	96	null
+t017	int	null		4	100	null
+t018	int	null		4	104	null
+t019	int	1		4	108	null
+t020	int	0		4	112	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================================================================================================
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+i	int	0		4	-4	null
+j	int	0		4	-8	null
+t000	int	0		4	-12	null
+k	int	0		4	-16	null
+t001	int	0		4	-20	null
+t002	int	0		4	-24	null
+t003	int	1		4	-28	null
+t004	int	null		4	-32	null
+t005	int	10		4	-36	null
+t006	int	null		4	-40	null
+t007	int	1		4	-44	null
+t008	int	null		4	-48	null
+t009	int	null		4	-52	null
+t010	int	null		4	-56	null
+t011	int	0		4	-60	null
+t012	int	1		4	-64	null
+t013	int	null		4	-68	null
+t014	int	null		4	-72	null
+t015	int	null		4	-76	null
+t016	int	10		4	-80	null
+t017	int	null		4	-84	null
+t018	int	null		4	-88	null
+t019	int	1		4	-92	null
+t020	int	0		4	-96	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
