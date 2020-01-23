@@ -1,0 +1,119 @@
+------------------------------------------------------------------------------
+	GENERATED QUADS	
+  0. :t000	=	10
+  1. :a		=	t000
+  2. :t001	=	20
+  3. :b		=	t001
+  4. :param	a
+  5. :param	b
+  6. :t002	=	call max, 2
+  7. :c		=	t002
+  8. :param	a
+  9. :param	b
+ 10. :t003	=	call max, 2
+ 11. :d		=	t003
+ 12. :t004	=	5
+ 13. :param	t004
+ 14. :t005	=	call fact, 1
+ 15. :c		=	t005
+ 16. :t006	=	t005
+ 17. :t007	=	0
+ 18. :return	t007
+ 19. :if  a >b	goto 22
+ 20. :goto 24
+ 21. :goto 26
+ 22. :return	a
+ 23. :goto -1
+ 24. :return	b
+ 25. :goto -1
+ 26. :param	a
+ 27. :param	b
+ 28. :t008	=	call max, 2
+ 29. :temp	=	t008
+ 30. :t009	=	t008
+ 31. :if  max ==a	goto 34
+ 32. :goto 36
+ 33. :goto 38
+ 34. :return	b
+ 35. :goto -1
+ 36. :return	a
+ 37. :goto -1
+ 38. :t010	=	0
+ 39. :if  n ==t010	goto 42
+ 40. :goto 45
+ 41. :goto 45
+ 42. :t011	=	1
+ 43. :return	t011
+ 44. :goto 45
+ 45. :t012	=	1
+ 46. :t013	=	n - t012
+ 47. :param	t013
+ 48. :t014	=	call fact, 1
+ 49. :t015	=	n * t014
+ 50. :return	t015
+------------------------------------------------------------------------------Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+max	int	null		0	0	ptr-to-ST( max )
+min	int	null		0	0	ptr-to-ST( min )
+fact	int	null		0	0	ptr-to-ST( fact )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : max
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+a	int	null		3	3	null
+b	int	null		3	6	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : min
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+a	int	null		3	3	null
+b	int	null		3	6	null
+temp	int	null		3	9	null
+t008	int	null		4	12	null
+t009	int	null		4	16	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : fact
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+n	int	null		3	3	null
+t010	int	0		4	6	null
+t011	int	1		4	10	null
+t012	int	1		4	14	null
+t013	int	null		4	18	null
+t014	int	null		4	22	null
+t015	int	null		4	26	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+a	int	10		3	3	null
+t000	int	10		4	6	null
+b	int	20		3	10	null
+t001	int	20		4	13	null
+c	int	0		3	17	null
+t002	int	null		4	20	null
+d	int	0		3	24	null
+t003	int	null		4	27	null
+t004	int	5		4	31	null
+t005	int	null		4	35	null
+t006	int	null		4	39	null
+t007	int	0		4	43	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------------

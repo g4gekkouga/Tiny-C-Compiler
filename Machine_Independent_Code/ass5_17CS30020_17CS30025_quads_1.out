@@ -1,0 +1,63 @@
+syntax error------------------------------------------------------------------------------
+	GENERATED QUADS	
+  0. :t000	=	3
+  1. :b		=	t000
+  2. :t001	=	2
+  3. :t002	=	b + t001
+  4. :a		=	t002
+  5. :t003	=	t002
+  6. :t004	=	a - b
+  7. :c		=	t004
+  8. :t005	=	t004
+  9. :t006	=	b
+ 10. :b	=	b + 1
+ 11. :t007	=	a / t006
+ 12. :c		=	t007
+ 13. :t008	=	t007
+ 14. :t009	=	a %% b
+ 15. :b		=	t009
+ 16. :t010	=	t009
+ 17. :t011	=	a * b
+ 18. :b		=	t011
+ 19. :t012	=	t011
+ 20. :t013	=	& a
+ 21. :p1		=	t013
+ 22. :t014	=	10
+ 23. :t015	=	20
+------------------------------------------------------------------------------Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+main	int	null		3	0	null
+a	int	null		3	3	null
+b	int	3		3	6	null
+t000	int	3		4	9	null
+t001	int	2		4	13	null
+t002	int	null		4	17	null
+t003	int	null		4	21	null
+c	int	null		3	25	null
+t004	int	null		4	28	null
+t005	int	null		4	32	null
+t006	int	null		4	36	null
+t007	int	null		4	40	null
+t008	int	null		4	44	null
+t009	int	null		4	48	null
+t010	int	null		4	52	null
+t011	int	null		4	56	null
+t012	int	null		4	60	null
+p1	ptr(int)	----		5	64	null
+t013	ptr(int)	null		4	69	null
+buf	Matrix(10,20,double)	null		800	81	null
+t014	int	10		4	73	null
+t015	int	20		4	77	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------------

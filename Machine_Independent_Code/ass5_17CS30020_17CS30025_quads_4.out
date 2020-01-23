@@ -1,0 +1,87 @@
+------------------------------------------------------------------------------
+	GENERATED QUADS	
+  0. :t000	=	3
+  1. :t001	=	2
+  2. :t002	=	1.000000
+  3. :t003	=	2.000000
+  4. :t004	=	3.000000
+  5. :t005	=	4.000000
+  6. :t006	=	5.000000
+  7. :t007	=	6.000000
+  8. :mat		=	t002
+  9. :t008	=	& a
+ 10. :d		=	t008
+ 11. :t009	=	9
+ 12. :k		=	t009
+ 13. :t010	=	10
+ 14. :t011	=	k + t010
+ 15. :l		=	t011
+ 16. :t012	=	50
+ 17. :i		=	t012
+ 18. :t013	=	& i
+ 19. :p		=	t013
+ 20. :t014	=	120
+ 21. :x		=	t014
+ 22. :return	x
+ 23. :return	y
+------------------------------------------------------------------------------Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+func_1	char	null		0	0	ptr-to-ST( func_1 )
+func_2	double	null		0	0	ptr-to-ST( func_2 )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : func_1
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	char	null		2	0	null
+a	int	null		3	2	null
+b	double	null		4	5	null
+c	char	null		2	9	null
+x	char	x		2	11	null
+t014	char	x		1	13	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : func_2
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	double	null		4	0	null
+x	double	null		4	4	null
+y	double	null		4	8	null
+k	int	null		3	12	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+mat	Matrix(3,2,double)	{{.000000,2.000000 ;3.000000,4.000000 ;5.000000,6.000000}		24	11	null
+t000	int	3		4	3	null
+t001	int	2		4	7	null
+t002	Matrix(double)	{{.000000,2.000000 ;3.000000,4.000000 ;5.000000,6.000000}		8	35	null
+t003	double	2.000000		8	43	null
+t004	double	0.000000		8	51	null
+t005	double	4.000000		8	59	null
+t006	double	0.000000		8	67	null
+t007	double	6.000000		8	75	null
+d	ptr(char)	----		5	83	null
+a			null		0	0	null
+t008	ptr()	null		4	88	null
+k	int	9		3	92	null
+t009	int	9		4	95	null
+l	int	0		3	99	null
+t010	int	10		4	102	null
+t011	int	null		4	106	null
+i	int	50		3	110	null
+t012	int	50		4	113	null
+p	ptr(int)	----		5	117	null
+t013	ptr(int)	null		4	122	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------------
